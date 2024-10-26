@@ -1,0 +1,29 @@
+body{
+    border: solid box-shadow: #ddd;
+    padding: 2cm 2rem;
+    max-height: 60px;
+    background-color: antiquewhite;
+}
+.container {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 350px;
+    padding: 100px;
+    border-radius: 10px;
+    width: 360px;
+    background-color:antiquewhite;
+}
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+    
+}
+.side img{
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
