@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<style>
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #333;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bffda;
+  color: #fff;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Registration Form</h2>
+  <form>
+    <label for="name">Your First Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="Your first name..">
+
+    <label for="lname">Your Last Name:</label>
+    <input type="text" id="lname" name="lname" placeholder="Your last name..">
+
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" placeholder="Your email..">
+
+    <label for="password">Create a New Password:</label>
+    <input type="password" id="password" name="password" placeholder="Your password..">
+
+    <label>Account type (required)</label>
+    <input type="radio" id="personal" name="account_type" value="personal">
+    <label for="personal">Personal</label><br>
+    <input type="radio" id="business" name="account_type" value="business">
+    <label for="business">Business</label><br>
+
+    <label for="profile_picture">Upload a profile picture:</label>
+    <input type="file" id="profile_picture" name="profile_picture">
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
